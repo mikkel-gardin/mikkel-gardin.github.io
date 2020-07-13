@@ -269,7 +269,6 @@ cursor: default;
 grid-area: bio;
 }
 
-
 .hi {
 font-size: 1.8vw;
 display: inline-block;
@@ -408,15 +407,28 @@ font-size: 18px;
 /* Animation for Creative Producer */
 .cp {
 animation: popCp 3200ms;
+-webkit-animation: popCp 3200ms;
+-moz-animation: popCp 3200ms;;
+-o-animation: popCp 3200ms;
+-ms-animation: popCp 3200ms;
 }
 
 #creative {
 animation: transToBlackCreate 3900ms;
+-webkit-animation: transToBlackCreate 3900ms;
+-moz-animation: transToBlackCreate 3900ms;
+-o-animation: transToBlackCreate 3900ms;
+-ms-animation: transToBlackCreate 3900ms;
 }
 
 #producer {
 animation: blackToTransPro 5500ms;
+-webkit-animation: blackToTransPro 5500ms;
+-moz-animation: blackToTransPro 5500ms;
+-o-animation: blackToTransPro 5500ms;
+-ms-animation: blackToTransPro 5500ms;
 }
+
 @keyframes popCp {
 0% {
   visibility: hidden;
@@ -459,14 +471,26 @@ animation: blackToTransPro 5500ms;
 /* Animation for project manager */
 .pm {
 animation: popPm 3900ms;
+-webkit-animation: popPm 3900ms;
+-moz-animation: popPm 3900ms;
+-o-animation: popPm 3900ms;
+-ms-animation: popPm 3900ms;
 }
 
 #project {
 animation: transToBlackPro 4500ms;
+-webkit-animation: transToBlackPro 4500ms;
+-moz-animation: transToBlackPro 4500ms;
+-o-animation: transToBlackPro 4500ms;
+-ms-animation: transToBlackPro 4500ms;
 }
 
 #manager {
 animation: blackToTransMan 5500ms;
+-webkit-animation: blackToTransMan 5500ms;
+-moz-animation: blackToTransMan 5500ms;
+-o-animation: blackToTransMan 5500ms;
+-ms-animation: blackToTransMan 5500ms;
 }
 
 @keyframes popPm {
@@ -514,14 +538,26 @@ animation: blackToTransMan 5500ms;
 /* Animation for uxui designer */
 .pd {
 animation: popPd 4500ms;
+-webkit-animation: popPd 4500ms;
+-moz-animation: popPd 4500ms;
+-o-animation: popPd 4500ms;
+-ms-animation: popPd 4500ms;
 }
 
 #uxui {
 animation: transToBlackUx 5000ms;
+-webkit-animation: transToBlackUx 5000ms;
+-moz-animation: transToBlackUx 5000ms;
+-o-animation: transToBlackUx 5000ms;
+-ms-animation: transToBlackUx 5000ms;
 }
 
 #designer {
 animation: blackToTransD 5500ms;
+-webkit-animation: blackToTransD 5500ms;
+-moz-animation: blackToTransD 5500ms;
+-o-animation: blackToTransD 5500ms;
+-ms-animation: blackToTransD 5500ms;
 }
 
 @keyframes popPd {
