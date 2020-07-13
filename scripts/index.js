@@ -163,7 +163,7 @@ aboutSiteButton.addEventListener('click', function() {
 } )
 
 
-function addActiveLink() {
+/*function addActiveLink() {
  let homePage = document.getElementById("home");
  let aboutPage = document.getElementById("about");
  let projectPage = document.getElementById("projects");
@@ -180,4 +180,4 @@ function addActiveLink() {
  }
 };
 
-addActiveLink();
+addActiveLink();*/
