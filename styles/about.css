@@ -352,3 +352,33 @@ button:visited {
 .cta {
     font-weight: normal;
   }
+
+/* MEDIA RULES FOR MOBILE */
+
+@media only screen and (max-width: 610px) {
+  body {
+      grid-gap: 2px;
+  }
+  
+  #logo {
+      padding-left: 1rem;
+      margin:0;
+  }
+
+  #wrapper {
+      padding-right: 1rem;
+  }
+
+  .color-block {
+      margin-right: 0;
+  }
+
+.copyright {
+  padding-left: 1rem;
+}
+
+.credit {
+  padding-right: 1rem;
+}
+
+};
