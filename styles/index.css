@@ -676,6 +676,7 @@ height: auto;
       "bio"
       "cta"
       "footer";
+      grid-gap: 2px;
   }
   
   #logo {
