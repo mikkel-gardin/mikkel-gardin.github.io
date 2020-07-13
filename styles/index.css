@@ -117,6 +117,7 @@ position: fixed;
 max-height: 60px;
 margin: 0;
 z-index: 5;
+padding-bottom: 4px;
 grid-area: header;
 }
 
