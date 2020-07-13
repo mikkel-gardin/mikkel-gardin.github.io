@@ -592,6 +592,7 @@ img {
 width: 100%;
 height: auto;
 }
+
 /* Animation for photo div */
 @keyframes fadeInDown {
 0% {
@@ -716,4 +717,12 @@ height: auto;
     grid-area: cta;
 }
 
+.copyright {
+  padding-left: 1rem;
 }
+
+.credit {
+  padding-right: 1rem;
+}
+
+};
