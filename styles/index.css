@@ -702,6 +702,10 @@ height: auto;
       font-size: 6vw;
   }
 
+  #desktop-cta {
+    display: none;
+}
+
   #mobile-cta{
     display:block;
     justify-content: center;
@@ -710,9 +714,6 @@ height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-}
-#desktop-cta {
-    display: none;
 }
 
 }
