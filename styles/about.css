@@ -263,6 +263,7 @@ footer {
 
 main {
   grid-area: main;
+  height: 100vh;
 }
 
 .content {
