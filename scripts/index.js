@@ -3,12 +3,12 @@ $(document).ready(function() {
 //transforms burger menu to X onclick
 $("#wrapper").click(function() {
 	$(".menu").toggleClass("close");
-})
+});
 
 //transforms burger menu to X onclick
 $("#wrapper").click(function() {
   $(".menu").toggleClass("close");
-})
+});
 
 //resets burger menu on window
 
@@ -17,7 +17,7 @@ function checkWidth() {
     $('#burger').removeClass('close'),
     $('#openNav').fadeTo(.0001, 0);
   }
-}
+};
 
 $(window).resize(checkWidth);
 });
