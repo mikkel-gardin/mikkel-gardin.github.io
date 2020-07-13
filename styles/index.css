@@ -405,21 +405,6 @@ font-size: 18px;
   display:none;
 }
 
-@media only screen and (max-width: 610px) {
-  #mobile-cta{
-      display:block;
-      justify-content: center;
-      padding: 0;
-      margin-bottom: auto;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 15px;
-  }
-  #desktop-cta {
-      display: none;
-  }
-}
-
 /* Animation for Creative Producer */
 .cp {
 animation: popCp 3200ms;
@@ -716,4 +701,18 @@ height: auto;
   .cp, .pm, .pd {
       font-size: 6vw;
   }
+
+  #mobile-cta{
+    display:block;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+#desktop-cta {
+    display: none;
+}
+
 }
