@@ -460,7 +460,7 @@ animation: blackToTransPro 5500ms;
 @keyframes blackToTransPro {
 70% {
   color: black;
-  -webkit-text-stroke: 0;
+  -webkit-text-stroke: 1.5px black;
 }
 71% {
   color: transparent;
@@ -512,11 +512,11 @@ animation: blackToTransMan 5500ms;
 @keyframes transToBlackPro {
 0% {
   color: black;
-  -webkit-text-stroke: 0;
+  -webkit-text-stroke: 1.5px black;
 }
   99%{
     color: black;
-    -webkit-text-stroke: 0;
+    -webkit-text-stroke: 1.5px black;
   }
   100%{
     color: transparent;
@@ -527,7 +527,7 @@ animation: blackToTransMan 5500ms;
 @keyframes blackToTransMan {
 81% {
   color: black;
-  -webkit-text-stroke: 0;
+  -webkit-text-stroke: 1.5px black;
 }
 82% {
   color: transparent;
@@ -580,7 +580,7 @@ animation: blackToTransD 5500ms;
 0%{}
 99%{
   color: black;
-  -webkit-text-stroke: 0;
+  -webkit-text-stroke: 1.5px black;
 }
 100%{
   color: transparent;
@@ -591,7 +591,7 @@ animation: blackToTransD 5500ms;
 @keyframes blackToTransD {
 90% {
   color: black;
-  -webkit-text-stroke: 0;
+  -webkit-text-stroke: 1.5px black;
 }
 91% {
   color: transparent;
