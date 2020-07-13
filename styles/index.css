@@ -76,6 +76,7 @@ a {
   background:#F9F6EC;
   transition: .25s;
   opacity: 0;
+  display: none;
 }
 
 .overlay-content {

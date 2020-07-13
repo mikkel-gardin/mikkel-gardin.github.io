@@ -25,8 +25,9 @@ function openCloseNav() {
   let openBurger = document.getElementById('openNav');
   let burger = document.getElementById('burger');
   if (burger.classList.contains('close')) {
-  openBurger.style.opacity = '0';
+    openBurger.style.opacity = '0';
   } else {
+    openBurger.style.display = 'block';
     openBurger.style.opacity = '1';
   }
 }
