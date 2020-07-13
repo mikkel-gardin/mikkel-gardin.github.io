@@ -3,12 +3,12 @@ $(document).ready(function() {
 //transforms burger menu to X onclick
 $("#wrapper").click(function() {
 	$(".menu").toggleClass("close");
-});
+})
 
 //transforms burger menu to X onclick
 $("#wrapper").click(function() {
   $(".menu").toggleClass("close");
-});
+})
 
 //resets burger menu on window
 
