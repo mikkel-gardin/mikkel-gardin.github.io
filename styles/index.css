@@ -96,7 +96,6 @@ a {
   -webkit-text-stroke: 2px black;
   display: block;
   font-size: 60px;
-  transition: .2s;
   background-color: transparent;
 }
 
