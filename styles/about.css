@@ -369,16 +369,15 @@ button:visited {
       padding-right: 1rem;
   }
 
-  .color-block {
-      margin-right: 0;
+  .content{
+    padding-top: 0;
   }
 
-.copyright {
+  .copyright {
   padding-left: 1rem;
-}
+  }
 
-.credit {
+  .credit {
   padding-right: 1rem;
-}
-
+  }
 };
