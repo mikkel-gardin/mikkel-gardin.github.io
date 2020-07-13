@@ -394,6 +394,10 @@ padding-left: 68px;
 padding-top: 70px;
 font-weight: bolder;
 animation: sayHi 5000ms;
+-webkit-animation: sayHi 5000ms;
+-moz-animation: sayHi 5000ms;
+-o-animation: sayHi 5000ms;
+-ms-animation: sayHi 5000ms;
 }
 
 .cta a{
@@ -408,7 +412,7 @@ font-size: 18px;
 .cp {
 animation: popCp 3200ms;
 -webkit-animation: popCp 3200ms;
--moz-animation: popCp 3200ms;;
+-moz-animation: popCp 3200ms;
 -o-animation: popCp 3200ms;
 -ms-animation: popCp 3200ms;
 }
@@ -468,6 +472,7 @@ animation: blackToTransPro 5500ms;
   -webkit-text-stroke: 1.5px black;
 }
 }
+
 /* Animation for project manager */
 .pm {
 animation: popPm 3900ms;
