@@ -366,7 +366,8 @@ button:visited {
   }
 
   .content {
-    padding-top: 0;
+    padding: 0;
+    margin: auto;
   }
 
   .copyright {
