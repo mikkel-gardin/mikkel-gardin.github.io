@@ -165,6 +165,7 @@ nav {
   height:25px;
   position:relative;
   margin-top: 10px;
+  z-index: 15;
 }
 
 .line {
