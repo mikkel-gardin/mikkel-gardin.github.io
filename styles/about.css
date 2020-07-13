@@ -371,6 +371,10 @@ button:visited {
     margin: auto;
   }
 
+  .content h1 {
+    padding-top: 10px;
+  }
+
   .copyright {
   padding-left: 1rem;
   }
