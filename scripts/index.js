@@ -1,46 +1,35 @@
 
 //transforms burger menu to X onclick
-/*$("#wrapper").click(function() {
+$("#wrapper").click(function() {
 	$(".menu").toggleClass("close");
 });
 
- //Side Nav Reveal Function
+//transforms burger menu to X onclick
+$("#wrapper").click(function() {
+  $(".menu").toggleClass("close");
+});
 
-let toggleNavStatus = false;
+//resets burger menu on window
 
-let toggleNav = function () {
-    let getSideNav = document.querySelector(".nav-sidebar");
-    
-    if (toggleNavStatus === false) {
-    getSideNav.style.visibility = "visible";
-
-    toggleNavStatus = true;
-    } else if (toggleNavStatus === true) {
-        getSideNav.style.visibility = "";
-    
-        toggleNavStatus = false; 
-}
+function checkWidth() {
+  if (($(window).width() > 610) && $('#burger').hasClass('close')) {
+    $('#burger').removeClass('close'),
+    $('#openNav').fadeTo(.0001, 0);
+  }
 }
 
+$(window).resize(checkWidth);
 
-/* When the user clicks on the "projects" button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+//opens the nav
+function openCloseNav() {
+  let openBurger = document.getElementById('openNav');
+  let burger = document.getElementById('burger');
+  if (burger.classList.contains('close')) {
+  openBurger.style.opacity = '0';
+  } else {
+    openBurger.style.opacity = '1';
   }
-  
-  // Close the projects dropdown if the user clicks outside of it
-  /* window.onclick = function(e) {
-   if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-    }
-  }
-*/
- 
-
+}
 
 // Global Variables
 
@@ -172,3 +161,23 @@ aboutSiteButton.addEventListener('click', function() {
   aboutMeButton.classList.remove("active");
   aboutNobleButton.classList.remove("active");
 } )
+
+
+function addActiveLink() {
+ let homePage = document.getElementById("home");
+ let aboutPage = document.getElementById("about");
+ let projectPage = document.getElementById("projects");
+ let journalPage = document.getElementById("navJournal");
+
+ if (document.head.contains(homePage)) {
+   document.getElementById("navHome").classList.add("active");
+ } else if (document.head.contains(aboutPage)) {
+   document.getElementById("navAbout").classList.add("active");
+ } else if (document.head.contains(projectPage)) {
+  document.getElementById("navProjects").classList.add("active");
+ } else {
+   journalPage.classList.add("active");
+ }
+};
+
+addActiveLink();

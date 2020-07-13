@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="projects">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/projects.css" rel="text/css">
     <title>Noble-Pursuits | Projects</title>
 </head>
 <body>
+    <!--HTML for Burger Menu Menu-->
+        <!--HTML for Burger Menu Icon -->             
+        <div id="wrapper">
+            <div id = "burger" class="main-item menu " onclick="openCloseNav()">
+                <span class="line line01"></span>
+                <span class="line line02"></span>
+                <span class="line line03"></span>
+            </div>
+        </div>
+    <!--End of Burger Menu Icon HTML-->
+    <div id="openNav" class = "overlay">
+        <div class = "overlay-content">
+            <a id="navHome" href="/index.html">HOME</a>
+            <a id="navProjects" href="/pages/projects.html">PROJECTS</a>
+            <a id="navAbout" href="/pages/about.html">ABOUT</a>
+            <a id="navJournal" href="/pages/journal.html">JOURNAL</a>
+        </div>
+    </div>
     <header>
         <nav>
             <div id="logo">
@@ -16,6 +34,7 @@
                 <a id = "active" class ="navlink" href="/pages/projects.html">projects</a>
                 <a class ="navlink" href="/pages/about.html">about</a>
                 <a class ="navlink" href="/pages/journal.html">journal</a>
+            </div>
         </nav>
     </header>
    <main>
