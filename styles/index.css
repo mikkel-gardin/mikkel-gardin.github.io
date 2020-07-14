@@ -254,6 +254,10 @@ padding-bottom: 1rem;
 
 /*BODY*/
 
+.blackText {
+  -webkit-text-stroke: 1.5px black;
+}
+
 #bio {
   display: block;
   justify-content: center;
