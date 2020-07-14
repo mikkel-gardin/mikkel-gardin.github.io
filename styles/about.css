@@ -383,6 +383,13 @@ button:visited {
     width: auto;
   }
 
+  .buttons {
+    justify-content: space-evenly;
+  }
+
+  button {
+    margin: 10px;
+  }
   #cv p{
   display: inline;
   }
