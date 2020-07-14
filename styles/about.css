@@ -379,7 +379,8 @@ button:visited {
   .about-box {
     padding-left: 1rem;
     padding-right: 1rem;
-    margin: auto
+    margin: auto;
+    width: auto;
   }
 
   #cv p{
