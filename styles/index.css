@@ -57,7 +57,7 @@ z-index: 0;
 display: grid;
 height: 100vh;
 grid-template-columns: 40% 60%;
-grid-template-rows: 8% 87% 5%;
+grid-template-rows: 6% 89% 5%;
 grid-template-areas: 
 "header header"
 "bio photo"
@@ -626,7 +626,6 @@ animation: blackToTransD 5500ms;
 
 /* STYLING FOR PHOTO */
 #photo {
-grid-area: photo;
 padding-right: 50px;
 justify-content: center;
 margin: auto;
@@ -635,6 +634,7 @@ animation: fadeInDown ease-in-out 2400ms;
 -moz-animation: fadeInDown ease-in-out 2400ms;
 -o-animation: fadeInDown ease-in-out 2400ms;
 -ms-animation: fadeInDown ease-in-out 2400ms;
+grid-area: photo;
 }
 
 img {
