@@ -124,7 +124,11 @@ function sayBye () {
 
 //About Page Buttons functions
 
-window.onload = document.getElementById('aboutMeButton').focus();
+//window.onload = document.getElementById('aboutMeButton').focus();
+
+window.onload = function() {
+  document.getElementById("aboutMeButton").click();
+};
 
 //global variables
 var aboutMe = document.getElementById('aboutMe');
