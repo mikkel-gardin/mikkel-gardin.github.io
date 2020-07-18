@@ -365,7 +365,8 @@ button:visited {
 
   .content {
     padding: 0;
-    margin: auto;
+    margin-top: 75px;
+    width: 100vw;
   }
 
   .content h1 {
@@ -385,6 +386,7 @@ button:visited {
 
   button {
     margin: 10px;
+    padding:10px;
   }
   #cv p{
   display: inline;
